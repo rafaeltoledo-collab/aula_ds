@@ -22,3 +22,14 @@ class ContaBancaria:
         else:
             print("Erro: O saldo não pode ser negativo.")
 
+            
+conta1 = ContaBancaria ("chapeuzinho",500 )
+conta2 = ContaBancaria ("fernando", 2500)
+conta3 = ContaBancaria ("mauricio", 7500)
+
+print(conta1.get_saldo())
+conta2.set_saldo(800)
+print(conta2.get_saldo())
+
+conta3.set_saldo(100)
+print(conta3.get_saldo())
